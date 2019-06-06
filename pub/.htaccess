@@ -134,6 +134,9 @@
     Options +FollowSymLinks
     RewriteEngine on
 
+    RewriteBase /pub/static/ # <- Add This
+
+
 ############################################
 ## You can put here your magento root folder
 ## path relative to web root

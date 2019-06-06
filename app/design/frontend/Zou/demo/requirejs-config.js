@@ -12,6 +12,7 @@ var config = {
         // }
     },
    	deps: [
-        "js/demo"
+        "js/demo",
+        "js/zou"
    	]
 };
