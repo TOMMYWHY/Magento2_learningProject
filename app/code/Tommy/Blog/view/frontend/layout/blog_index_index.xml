@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="1column" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <referenceContainer name="content">
+        <block class="Tommy\Blog\Block\Posts" 
+        name="posts.list" 
+        template="Tommy_Blog::post/list.phtml" />
+    </referenceContainer>
+</page>
+
+<!-- {router_id}_{controller_name}_{action_name}.xml -->
+
+<!-- layout 将 block php logic 与 template 页面 连接起来 -->
+<!-- Block/Posts.php ==== view/frontend/templates/post/list -->
