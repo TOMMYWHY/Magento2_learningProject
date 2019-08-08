@@ -5,9 +5,10 @@ namespace Tommy\Blog\Block;
 use Tommy\Blog\Model\Post;
 use \Magento\Framework\View\Element\Template;
 use \Magento\Framework\View\Element\Template\Context;
-use \Tommy\Blog\Model\ResourceModel\Post\Collection as PostCollection;
+use \Tommy\Blog\Model\ResourceModel\Post\PostCollection as PostCollection;
 use \Tommy\Blog\Model\ResourceModel\Post\PostCollectionFactory as PostCollectionFactory;
-//PostCollectionFactory auto created by framework
+//PostCollectionFactory auto created by framework <Magento root folder>/generated
+//run ---- magento setup:di:compile
 
 class Posts extends Template
 {
